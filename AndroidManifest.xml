@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.timetrial"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.timetrial.LaunchActivity"
+            android:label="@string/title_activity_launch" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.timetrial.DisplayActivity"
+            android:label="@string/title_activity_display" >
+        </activity>
+        <activity
+            android:name="com.example.timetrial.AddActivity"
+            android:label="@string/title_activity_add" >
+        </activity>
+        <activity
+            android:name="com.example.timetrial.StartMenuActivity"
+            android:label="@string/title_activity_start_menu" >
+        </activity>
+        <activity
+            android:name="com.example.timetrial.DisplaytActivity"
+            android:label="@string/title_activity_displayt" >
+        </activity>
+        <activity
+            android:name="com.example.timetrial.TimedTrialActivity"
+            android:label="@string/title_activity_timed_trial" >
+        </activity>
+        <activity
+            android:name="com.example.timetrial.DisplayexActivity"
+            android:label="@string/title_activity_displayex" >
+        </activity>
+        <activity
+            android:name="com.example.timetrial.AddexActivity"
+            android:label="@string/title_activity_addex" >
+        </activity>
+        
+    </application>
+
+</manifest>

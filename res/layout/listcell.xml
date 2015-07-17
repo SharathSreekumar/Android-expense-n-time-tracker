@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+	<TextView
+        android:id="@+id/task"
+        android:layout_width="110dip"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/keyId"
+        android:gravity="left"
+        android:text="task"
+        android:textSize="17sp"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="100dip"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/task"
+        android:gravity="center"
+        android:text="date"
+        android:textSize="17sp"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="80dip"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/date"
+        android:gravity="center"
+        android:textSize="17sp"
+        android:text="time"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/keyId"
+        android:layout_width="30dip"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="left"
+        android:text="no."
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="17sp" />
+    
+</RelativeLayout>

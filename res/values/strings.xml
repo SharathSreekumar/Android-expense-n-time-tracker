@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Time and Expense Tracker</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_add">Enter New Expense</string>
+    <string name="title_activity_display">Expense Sheet</string>
+    <string name="title_activity_launch">Time and Expense Tracker</string>
+    <string name="copy_rights">Copyright \u00a9 Time and Expense Tracker</string>
+    <string name="title_activity_start_menu">Time and Expense Tracker</string>
+    <string name="title_activity_displayt">Task To Complete...</string>
+    <string name="title_activity_timed_trial">New Task</string>
+    <string name="title_activity_addex">Enter New Expense</string>
+    <string name="title_activity_displayex">Expense Sheet</string>
+
+</resources>
